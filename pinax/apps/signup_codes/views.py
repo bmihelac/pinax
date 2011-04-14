@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect, Http404
 from django.shortcuts import render_to_response
 from django.template import RequestContext
@@ -58,7 +59,7 @@ def signup(request, **kwargs):
                 fallback_url = reverse(settings.LOGIN_REDIRECT_URLNAME)
             else:
                 fallback_url = settings.LOGIN_REDIRECT_URL
-        success_url = get_default_redirect(request, fallback_url, redirect_field_name)
+        success_url = get_default_redirect(request, fallback_url)
     
     code = request.GET.get("code")
     
@@ -80,7 +81,11 @@ def signup(request, **kwargs):
     else:
         signup_code = check_signup_code(code)
         if signup_code:
-            form = form_class(initial={"signup_code": code}, group=group)
+            initial = {
+                "signup_code": code,
+                "email": signup_code.email,
+            }
+            form = form_class(initial=initial, group=group)
         else:
             if not settings.ACCOUNT_OPEN_SIGNUP:
                 ctx.update({
