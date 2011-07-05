@@ -3,197 +3,217 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-28 23:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2011-05-16 15:06+0200\n"
+"PO-Revision-Date: 2011-05-27 12:26\n"
+"Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.5.9\n"
 
+#: extra-locales/account/forms.py:48 extra-locales/account/forms.py:122
+#: extra-locales/account/forms.py:358 extra-locales/account/forms.py:482
 #: forms.py:50 forms.py:124 forms.py:360 forms.py:484
 msgid "Password"
-msgstr ""
+msgstr "Lozinka"
 
-#: forms.py:54
+#: extra-locales/account/forms.py:52 forms.py:54
 msgid "Remember Me"
-msgstr ""
+msgstr "Zapamti me"
 
-#: forms.py:55
+#: extra-locales/account/forms.py:53 forms.py:55
 msgid "If checked you will stay logged in for 3 weeks"
-msgstr ""
+msgstr "Ukoliko je uključeno, ostati ćete prijavljeni 3 tjedna"
 
-#: forms.py:66 forms.py:141 forms.py:296 forms.py:382
+#: extra-locales/account/forms.py:64 extra-locales/account/forms.py:139
+#: extra-locales/account/forms.py:294 extra-locales/account/forms.py:380
+#: kitchenplanner/models.py:511 forms.py:66 forms.py:141 forms.py:296
+#: forms.py:382
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
-#: forms.py:71 forms.py:119 forms.py:482
+#: extra-locales/account/forms.py:69 extra-locales/account/forms.py:117
+#: extra-locales/account/forms.py:480 forms.py:71 forms.py:119 forms.py:482
 msgid "Username"
-msgstr ""
+msgstr "Korisničko ime"
 
-#: forms.py:99
+#: extra-locales/account/forms.py:97 forms.py:99
 msgid "This account is currently inactive."
-msgstr ""
+msgstr "Korisnički račun je trenutno neaktivan."
 
-#: forms.py:102
+#: extra-locales/account/forms.py:100 forms.py:102
 msgid "The e-mail address and/or password you specified are not correct."
-msgstr ""
+msgstr "E-mail adresa i/ili lozinka koje ste naveli nisu ispravni."
 
-#: forms.py:104
+#: extra-locales/account/forms.py:102 forms.py:104
 msgid "The username and/or password you specified are not correct."
-msgstr ""
+msgstr "Korisničko ime i/ili lozinka koje ste naveli nisu ispravni."
 
+#: extra-locales/account/forms.py:126 extra-locales/account/forms.py:362
 #: forms.py:128 forms.py:364
 msgid "Password (again)"
-msgstr ""
+msgstr "Lozinka (ponovno)"
 
-#: forms.py:144
+#: extra-locales/account/forms.py:142 forms.py:144
 msgid "E-mail (optional)"
-msgstr ""
+msgstr "E-mail (nije obavezno)"
 
-#: forms.py:149
+#: extra-locales/account/forms.py:147 forms.py:149
 msgid "Usernames can only contain letters, numbers and underscores."
-msgstr ""
+msgstr "Korisničko ime može sadržavati samo slova, brojeve i donje crte."
 
-#: forms.py:154
+#: extra-locales/account/forms.py:152 forms.py:154
 msgid "This username is already taken. Please choose another."
 msgstr ""
+"To korisničko ime je već zauzeto. Molimo odaberite drugo korisničko ime."
 
-#: forms.py:163
+#: extra-locales/account/forms.py:161 forms.py:163
 msgid "A user is registered with this e-mail address."
-msgstr ""
+msgstr "Korisnik s ovom e-mail adresom je već registriran."
 
+#: extra-locales/account/forms.py:167 extra-locales/account/forms.py:347
+#: extra-locales/account/forms.py:369 extra-locales/account/forms.py:437
 #: forms.py:169 forms.py:349 forms.py:371 forms.py:439
 msgid "You must type the same password each time."
-msgstr ""
+msgstr "Morate upisati istu lozinku svaki put."
 
-#: forms.py:217
+#: extra-locales/account/forms.py:215 forms.py:217
 msgid "Your e-mail address has already been verified"
-msgstr ""
+msgstr "Vaša e-mail adresa je već potvrđena"
 
+#: extra-locales/account/forms.py:225 extra-locales/account/forms.py:235
 #: forms.py:227 forms.py:237
 #, python-format
 msgid "Confirmation e-mail sent to %(email)s"
-msgstr ""
+msgstr "E-mailom sa linkom za potvrdu registracije je poslan na %(email)s "
 
-#: forms.py:304
+#: extra-locales/account/forms.py:302 forms.py:304
 msgid "This e-mail address already associated with this account."
-msgstr ""
+msgstr "Ova e-mail adresa je već povezana sa ovim računom."
 
-#: forms.py:305
+#: extra-locales/account/forms.py:303 forms.py:305
 msgid "This e-mail address already associated with another account."
-msgstr ""
+msgstr "Ova e-mail adresa je već povezana sa drugim računom."
 
-#: forms.py:329
+#: extra-locales/account/forms.py:327 forms.py:329
 msgid "Current Password"
-msgstr ""
+msgstr "Trenutna lozinka"
 
+#: extra-locales/account/forms.py:331 extra-locales/account/forms.py:421
 #: forms.py:333 forms.py:423
 msgid "New Password"
-msgstr ""
+msgstr "Nova lozinka"
 
+#: extra-locales/account/forms.py:335 extra-locales/account/forms.py:425
 #: forms.py:337 forms.py:427
 msgid "New Password (again)"
-msgstr ""
+msgstr "Nova lozinka (ponovno)"
 
-#: forms.py:343
+#: extra-locales/account/forms.py:341 forms.py:343
 msgid "Please type your current password."
-msgstr ""
+msgstr "Unesite trenutnu lozinku."
 
-#: forms.py:389
+#: extra-locales/account/forms.py:387 forms.py:389
 msgid "E-mail address not verified for any user account"
-msgstr ""
+msgstr "E-mail adresa nije potvrđena za bilo koji korisnički račun"
 
-#: forms.py:409
+#: extra-locales/account/forms.py:407 forms.py:409
 msgid "Password reset e-mail sent"
-msgstr ""
+msgstr "Upute za promjenu lozinke su poslane na vaš e-mail"
 
-#: forms.py:453
+#: extra-locales/account/forms.py:451 forms.py:453
 msgid "Timezone"
-msgstr ""
+msgstr "Vremenska zona"
 
-#: forms.py:467
+#: extra-locales/account/forms.py:465 forms.py:467
 msgid "Language"
-msgstr ""
+msgstr "Jezik"
 
+#: extra-locales/account/models.py:20 extra-locales/account/models.py:37
+#: extra-locales/account/models.py:116 extra-locales/idios/models.py:19
 #: models.py:20 models.py:37 models.py:116
 msgid "user"
-msgstr ""
+msgstr "korisnik"
 
-#: models.py:22
+#: extra-locales/account/models.py:22 models.py:22
 msgid "timezone"
-msgstr ""
+msgstr "vremenska zona"
 
-#: models.py:23
+#: extra-locales/account/models.py:23 models.py:23
 msgid "language"
-msgstr ""
+msgstr "jezik"
 
-#: models.py:38
+#: extra-locales/account/models.py:38 models.py:38
 msgid "Other Service Info Key"
 msgstr ""
 
-#: models.py:39
+#: extra-locales/account/models.py:39 models.py:39
 msgid "Other Service Info Value"
 msgstr ""
 
-#: models.py:118
+#: extra-locales/account/models.py:118 models.py:118
 msgid "temp_key"
 msgstr ""
 
-#: models.py:119
+#: extra-locales/account/models.py:119 models.py:119
 msgid "timestamp"
-msgstr ""
+msgstr "vremenska oznaka"
 
-#: models.py:120
+#: extra-locales/account/models.py:120 models.py:120
 msgid "reset yet?"
 msgstr ""
 
+#: extra-locales/account/openid_consumer.py:124
+#: extra-locales/account/views.py:93 extra-locales/account/views.py:147
 #: openid_consumer.py:120 views.py:89 views.py:136
 #, python-format
 msgid "Successfully logged in as %(user)s."
-msgstr ""
+msgstr "Uspješno ste prijavljeni kao %(user)s."
 
+#: extra-locales/account/views.py:178 extra-locales/account/views.py:193
 #: views.py:167 views.py:182
 #, python-format
 msgid "Confirmation email sent to %(email)s"
-msgstr ""
+msgstr "Poruka sa linkom za potvrdu je poslana na %(email)s "
 
-#: views.py:198
+#: extra-locales/account/views.py:209 views.py:198
 #, python-format
 msgid "Removed email address %(email)s"
-msgstr ""
+msgstr "E-mail adresa %(email)s je uklonjena"
 
+#: extra-locales/account/views.py:249 extra-locales/account/views.py:377
 #: views.py:238 views.py:366
 msgid "Password successfully changed."
-msgstr ""
+msgstr "Lozinka je uspješno izmijenjena."
 
-#: views.py:268
+#: extra-locales/account/views.py:279 views.py:268
 msgid "Password successfully set."
-msgstr ""
+msgstr "Lozinka je uspješno postavljena."
 
-#: views.py:395
+#: extra-locales/account/views.py:406 views.py:395
 msgid "Timezone successfully updated."
-msgstr ""
+msgstr "Vremenska zona je uspješno ažurirana."
 
-#: views.py:421
+#: extra-locales/account/views.py:432 views.py:421
 msgid "Language successfully updated."
-msgstr ""
+msgstr "Jezik je uspješno ažuriran."
 
-#: views.py:459
+#: extra-locales/account/views.py:470 views.py:459
 msgid "Twitter authentication failed"
-msgstr ""
+msgstr "Twitter autentikacija nije uspjela"
 
-#: views.py:464
+#: extra-locales/account/views.py:475 views.py:464
 msgid "Successfully authenticated."
-msgstr ""
+msgstr "Uspješna autentikacija."
 
-#: views.py:492
+#: extra-locales/account/views.py:503 views.py:492
 msgid "Removed twitter account information successfully."
-msgstr ""
+msgstr "Uklonjeni su podaci o twitter računu."
