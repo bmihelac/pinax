@@ -30,11 +30,11 @@ msgstr "Lozinka"
 
 #: forms.py:47
 msgid "Remember Me"
-msgstr ""
+msgstr "Zapamti me"
 
 #: forms.py:48
 msgid "If checked you will stay logged in for 3 weeks"
-msgstr ""
+msgstr "Ukoliko je označeno, ostati ćete prijavljeni 3 tjedna"
 
 #: forms.py:59 forms.py:134 forms.py:289 forms.py:374
 msgid "Email"
