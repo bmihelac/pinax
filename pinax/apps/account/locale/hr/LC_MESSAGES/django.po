@@ -3,26 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-31 09:56+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2012-02-08 20:39+0100\n"
+"PO-Revision-Date: 2011-02-15 02:47\n"
+"Last-Translator:   <bmihelac@mihelac.org>\n"
+"Language-Team: Bojan Mihelac <bmihelac@mihelac.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3);\n"
-"X-Translated-Using: django-rosetta 0.5.9\n"
-"#-#-#-#-#  django.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 
 #: forms.py:43 forms.py:117 forms.py:352
 msgid "Password"
@@ -42,11 +35,11 @@ msgstr "E-mail"
 
 #: forms.py:64 forms.py:112
 msgid "Username"
-msgstr ""
+msgstr "Korisničko ime"
 
 #: forms.py:92
 msgid "This account is currently inactive."
-msgstr ""
+msgstr "Ovaj korisnički račun je trenutno neaktivan."
 
 #: forms.py:95
 msgid "The email address and/or password you specified are not correct."
@@ -54,7 +47,7 @@ msgstr ""
 
 #: forms.py:97
 msgid "The username and/or password you specified are not correct."
-msgstr ""
+msgstr "Korisničko ime i/ili zaporka koje ste naveli nisu ispravni."
 
 #: forms.py:121 forms.py:356
 msgid "Password (again)"
@@ -62,15 +55,16 @@ msgstr "Lozinka (ponovno)"
 
 #: forms.py:137
 msgid "Email (optional)"
-msgstr ""
+msgstr "E-mail (neobavezno)"
 
 #: forms.py:142
 msgid "Usernames can only contain letters, numbers and underscores."
-msgstr ""
+msgstr "Korisničko ime može sadržavati samo slova, brojeve i donje crte."
 
 #: forms.py:147
 msgid "This username is already taken. Please choose another."
 msgstr ""
+"To korisničko ime je već zauzeto. Molimo izaberite drugo korisničko ime."
 
 #: forms.py:156
 msgid "A user is registered with this email address."
@@ -87,7 +81,7 @@ msgstr ""
 #: forms.py:220 forms.py:230 views.py:183 views.py:198
 #, python-format
 msgid "Confirmation email sent to %(email)s"
-msgstr ""
+msgstr "Poruka sa linkom za potvrdu je poslana na %(email)s "
 
 #: forms.py:297
 msgid "This email address already associated with this account."
@@ -99,19 +93,19 @@ msgstr ""
 
 #: forms.py:322
 msgid "Current Password"
-msgstr ""
+msgstr "Trenutna lozinka"
 
 #: forms.py:326 forms.py:415
 msgid "New Password"
-msgstr ""
+msgstr "Nova lozinka"
 
 #: forms.py:330 forms.py:419
 msgid "New Password (again)"
-msgstr ""
+msgstr "Nova lozinka (ponovno)"
 
 #: forms.py:336
 msgid "Please type your current password."
-msgstr ""
+msgstr "Molimo unesite trenutnu lozinku."
 
 #: forms.py:381
 msgid "Email address not verified for any user account"
@@ -123,7 +117,7 @@ msgstr "E-mail poruka sa uputama za promjenu lozinke je poslana"
 
 #: forms.py:445
 msgid "Timezone"
-msgstr ""
+msgstr "Vremenska zona"
 
 #: forms.py:459
 msgid "Language"
@@ -131,15 +125,15 @@ msgstr "Jezik"
 
 #: models.py:19 models.py:48
 msgid "user"
-msgstr ""
+msgstr "korisnik"
 
 #: models.py:21
 msgid "timezone"
-msgstr ""
+msgstr "vremenska zona"
 
 #: models.py:22
 msgid "language"
-msgstr ""
+msgstr "jezik"
 
 #: models.py:50
 msgid "temp_key"
@@ -147,7 +141,7 @@ msgstr ""
 
 #: models.py:51
 msgid "timestamp"
-msgstr ""
+msgstr "vremenska oznaka"
 
 #: models.py:52
 msgid "reset yet?"
@@ -156,25 +150,25 @@ msgstr ""
 #: openid_consumer.py:122 views.py:88 views.py:152
 #, python-format
 msgid "Successfully logged in as %(user)s."
-msgstr ""
+msgstr "Uspješno ste prijavljeni kao %(user)s."
 
 #: views.py:214
 #, python-format
 msgid "Removed email address %(email)s"
-msgstr ""
+msgstr "Uklonjena e-mail adresa %(email)s "
 
 #: views.py:254 views.py:381
 msgid "Password successfully changed."
-msgstr ""
+msgstr "Lozinka je uspješno promijenjena."
 
 #: views.py:284
 msgid "Password successfully set."
-msgstr ""
+msgstr "Lozinka je uspješno postavljena."
 
 #: views.py:410
 msgid "Timezone successfully updated."
-msgstr ""
+msgstr "Vremenska zona je uspješno ažurirana."
 
 #: views.py:436
 msgid "Language successfully updated."
-msgstr ""
+msgstr "Jezik je uspješno ažuriran."
